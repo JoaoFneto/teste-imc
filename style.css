@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+section {
+    max-width: 300px;
+    background-color: grey;
+    color: white;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+#calcular {
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+#imagem {
+    width: 300px;
+    border-radius: 10px;
+}
+
+#foto {
+    display: flex;
+    justify-content: flex-end;
+}
